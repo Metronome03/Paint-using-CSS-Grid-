@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Grid</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="title">
+        <h1>Paint</h1>
+    </header>
+    <main>
+        <div class="selectors">
+            <input type="color" value="#000000" id="paint-color">
+            <button class="button-selector" id="brush-selector">Brush Color</button>
+            <input type="color" value="#ffffff" id="back-color">
+            Background Color
+            <button id="rainbow" class="button-selector">Rainbow Color</button>
+            <button id="eraser" class="button-selector">Eraser</button>
+            <button id="toggle-hover" class="button-selector">Toggle Hover:OFF</button>
+            <button id="clear-paint" class="button-clicker">Clear Paint</button>
+            <button id="reset" class="button-clicker">Reset</button>
+            <div class="grid-range">
+            <input id="range-bar" type="range" min="1" max="100" value="50">
+            <p class="range">Brush-size : 50 x 50</p>
+            </div>
+        </div>
+        <div class="grid"></div>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>
